@@ -1,0 +1,100 @@
+.btn-custom {
+  background-color: #46139f;
+  border-color: #46139f;
+}
+
+.btn-custom-secondary {
+  background-color: #ff7f50;
+  border-color: #ff7f50;
+}
+
+.btn-custom-secondary,
+.btn-custom-secondary:focus {
+  color: #fff;
+}
+
+.btn-custom-secondary:hover {
+  background-color: #e65c36;
+}
+
+.btn-custom:not(.disabled):not([disabled]):active,
+.btn-custom:not(.disabled):not([disabled]).active,
+.show>.btn-custom.dropdown-toggle {
+  background-color: #380f80;
+  border-color: #380f80;
+}
+
+.btn-custom:not(:disabled):not(.disabled):active:focus,
+.btn-custom:not(:disabled):not(.disabled).active:focus,
+.show>.btn-custom.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(70, 19, 159, 0.5);
+}
+
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/* Styling for Bootstrap Modal Show Class */
+
+/* Overlay background color */
+.modal-backdrop.show {
+  opacity: 0.7;
+  /* Adjust the opacity as needed */
+}
+
+/* Modal fade-in animation duration */
+.modal.show {
+  overflow-y: scroll;
+  display: block;
+  /* Make the modal visible */
+  opacity: 1;
+  /* Make the modal fully opaque */
+  transition: opacity 0.15s linear;
+  /* Adjust the transition duration as needed */
+}
+
+/* Modal dialog position */
+.modal.show .modal-dialog {
+  transform: translate(0, 0);
+  /* Adjust the position as needed */
+}
+
+/* Modal content fade-in animation */
+.modal.show .modal-content {
+  transform: scale(1);
+  /* Adjust the scale as needed */
+  transition: transform 0.15s linear;
+  width: 600px;
+  /* Adjust the transition duration as needed */
+}
+
+.all-contacts {
+  background-color: #46139f;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+}
+
+.us-contacts {
+  background-color: #ff7f50;
+  color: #111;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px;
+}
+
+.close-btn {
+  border: 1px solid #46139f;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 6px 12px;
+}
